@@ -16,7 +16,7 @@ const portfolioData = [
         githubLink: "https://github.com/Jiaqi-Feng/Contact-List"
     },
     {
-        image: "/jiaqifeng-profile-app/Lite-Todo.jpg",
+        image: "/jiaqifeng-profile-app/LiteTodo.jpg",
         name: "Lite ToDo",
         technologyStack: ["HTML", "CSS", "JavaScript", "PHP", "SQLite", "phpMyAdmin"],
         description: "A web-based to-do list application that allows users to add tasks, cross off completed tasks, delete tasks, categorize tasks into Study, Work, Sport, and Chores, and view tasks by category. The application utilizes a MySQL database managed via phpMyAdmin.",
