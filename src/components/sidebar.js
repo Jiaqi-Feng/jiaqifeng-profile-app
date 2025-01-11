@@ -2,6 +2,7 @@
 
 import { FaFacebook, FaGithub,FaLinkedin } from "react-icons/fa";
 import { usePathname, useRouter } from "next/navigation";
+import { prefix } from "@/app/prefix";
 import Link from "next/link";
 
 export default function Sidebar(){
@@ -13,7 +14,7 @@ export default function Sidebar(){
             {/* Profile Image */}
             <div className="mt-30">
                 <img
-                src="/jiaqifeng-profile-app/JiaqiFengPhoto.jpg"
+                src={`${prefix}/JiaqiFengPhoto.jpg`}//"/jiaqifeng-profile-app/JiaqiFengPhoto.jpg"
                 alt="Jiaqi's profile"
                 className="w-48 h-48 rounded-full mt-40 mb-10 bg-black"
                 />
