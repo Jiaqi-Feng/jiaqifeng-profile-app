@@ -2,7 +2,6 @@
 
 import { FaFacebook, FaGithub,FaLinkedin } from "react-icons/fa";
 import { usePathname, useRouter } from "next/navigation";
-import { prefix } from "@/app/prefix";
 import Link from "next/link";
 
 export default function Sidebar(){
