@@ -42,7 +42,7 @@ const programmingSkillData = [
     },
     {
         name: "C#",
-        icon: <img src="/cSharpLogo.png" alt="JavaFx-Logo" style={{width:"70px", height:"24px"}}/>,
+        icon: <img src="/jiaqifeng-profile-app/cSharpLogo.png" alt="JavaFx-Logo" style={{width:"70px", height:"24px"}}/>,
         description: "Used for building cross-platform applications, including a .NET MAUI contact list app with SQLite integration. Proficient at an intermediate level."
     }
 ];

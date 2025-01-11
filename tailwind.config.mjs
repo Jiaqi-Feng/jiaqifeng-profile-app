@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        "custom-gif" : "url('/stars-starry-night.gif')",
+        "custom-gif" : "url('/jiaqifeng-profile-app/stars-starry-night.gif')",
       },
       colors: {
         background: "#f7f2ff", //Page background color: light purple

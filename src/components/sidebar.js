@@ -8,14 +8,13 @@ import Link from "next/link";
 export default function Sidebar(){
     // Detect if the page is active
     const pathname = usePathname();
-    console.log("env: " + process.env.NEXT_PUBLIC_BASE_PATH);
 
     return (
         <div className = "w-1/4 h-screen bg-sidebar-bg text-white flex flex-col items-center py-6">
             {/* Profile Image */}
             <div className="mt-30">
                 <img
-                src={`${prefix}/JiaqiFengPhoto.jpg`}//"/jiaqifeng-profile-app/JiaqiFengPhoto.jpg"
+                src="/jiaqifeng-profile-app/JiaqiFengPhoto.jpg"
                 alt="Jiaqi's profile"
                 className="w-48 h-48 rounded-full mt-40 mb-10 bg-black"
                 />
