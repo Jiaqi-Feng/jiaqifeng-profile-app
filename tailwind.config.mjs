@@ -7,9 +7,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        "custom-gif" : "url('/stars-starry-night.gif')",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#f7f2ff", //Page background color: light purple
+        "sidebar-bg": "#30109c", //Navigation bar color: purple
+        "title-color": "#4e31b0"//Title color for every page
       },
     },
   },
