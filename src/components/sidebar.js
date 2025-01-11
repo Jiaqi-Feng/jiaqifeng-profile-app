@@ -8,6 +8,7 @@ import Link from "next/link";
 export default function Sidebar(){
     // Detect if the page is active
     const pathname = usePathname();
+    console.log("env: " + process.env.NEXT_PUBLIC_BASE_PATH);
 
     return (
         <div className = "w-1/4 h-screen bg-sidebar-bg text-white flex flex-col items-center py-6">
