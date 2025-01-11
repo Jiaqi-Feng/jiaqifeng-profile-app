@@ -76,6 +76,7 @@ jobs:
       - name: Set up environment
         env:
           NEXT_PUBLIC_BASE_PATH: /jiaqifeng-profile-app
+        run: npm run build
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
