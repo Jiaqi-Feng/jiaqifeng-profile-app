@@ -64,7 +64,7 @@ export default function Skills(){
 
             {/* Programming skill section */}
             <section className="p-6">
-                <h2 className="text-4xl font-bold text-indigo-900 mb-7 underline">Programming Skill</h2>
+                <h2 className="text-4xl font-bold text-indigo-900 mb-7 underline">Languages</h2>
                 <div className="space-y-6 mt-7">
                     {languageData.map((language, a) =>(
                     <div 
