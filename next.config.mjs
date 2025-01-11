@@ -4,7 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '/jiaqifeng-profile-app',
+    //basePath: '/jiaqifeng-profile-app',
 };
 
 export default nextConfig;
