@@ -30,7 +30,7 @@ export default function Contact() {
         }; 
 
     return (
-        <div className="min-h-screen p-4 sm:p-6 lg:p-8 overflow-scroll">
+        <div className="min-h-screen p-4 sm:p-6 lg:p-8 overflow-auto scrollbar-hide">
 
             {/* Title */}
             <div className="text-black bg-title-color rounded-lg shadow-md mt-2 sm:mt-5 p-4 sm:p-6 lg:p-8 bg-opacity-60">

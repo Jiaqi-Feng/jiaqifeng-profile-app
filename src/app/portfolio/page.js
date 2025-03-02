@@ -2,7 +2,7 @@ import portfolioData from "@/data/portfolioData";
 
 export default function Portfolio(){
     return(
-        <div className="p-4 sm:p-6 lg:p-8 min-h-screen overflow-scroll">
+        <div className="p-4 sm:p-6 lg:p-8 min-h-screen overflow-auto scrollbar-hide">
             {/* Title */}
             <div className="text-black bg-title-color rounded-lg shadow-md mt-2 sm:mt-5 p-4 sm:p-6 lg:p-8 bg-opacity-60">
                 <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-indigo-950">

@@ -3,7 +3,7 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 
 export default function About(){
     return(
-        <div className=" text-black ml-5 flex flex-col min-h-screen p-4 sm:p-6 lg:p-8 overflow-scroll">
+        <div className=" text-black ml-5 flex flex-col min-h-screen p-4 sm:p-6 lg:p-8 overflow-auto scrollbar-hide">
             <div className="text-black bg-title-color rounded-lg shadow-md mt-16 sm:mt-24 bg-opacity-60 p-6 sm:p-8">
                 <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-indigo-950 overflow-hidden">{aboutData.title}</h1>
             </div>
