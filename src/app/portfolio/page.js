@@ -12,7 +12,7 @@ export default function Portfolio(){
             </div>
 
             {/* Project cards */}
-            <div className="grid gap-6 grid-cols-2 mt-6">
+            <div className="grid gap-6 gride-cols-1 sm:grid-cols-2 mt-6">
                 {portfolioData.map((project, index) => (
                     <div 
                     key = {index} 
@@ -24,15 +24,15 @@ export default function Portfolio(){
                                 <img 
                                 src={project.image}
                                 alt={`${project.name}`}
-                                className="w-1/3 h-auto object-cover rounded-3xl ml-4"
+                                className="w-1/5 md:w-1/3 h-auto object-cover rounded-3xl ml-4"
                                 />
 
                                 
                                 <div className="w-2/3 p-10">
-                                    <h2 className="text-3xl font-bold text-indigo-950 mb-2">{project.name}</h2>
+                                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-indigo-950 mb-2">{project.name}</h2>
                                     <ul className="list-disc list-inside text-gray-900">
                                         {project.technologyStack.map((tech, i) => (
-                                            <li key={i} className="text-xl font-semibold">{tech}</li>
+                                            <li key={i} className="text-lg lg:text-xl font-semibold">{tech}</li>
                                         ))}
                                     </ul>
                                 </div>
@@ -40,12 +40,12 @@ export default function Portfolio(){
                               {/* Back side */}          
                             <div className="absolute inset-0 w-full h-full rounded-xl bg-sidebar-bg text-white px-6 py-4 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                                 <div className="flex h-full flex-col items-center justify-center">
-                                    <p className="text-l font-semibold mb-4">{project.description}</p>
+                                    <p className="text-sm lg:text-xl font-semibold mb-2 sm:mb-4 lg:mb-4">{project.description}</p>
                                     <a
                                     href={project.githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-green-400 font-bold hover:underline"
+                                    className="text-green-400 text-base lg:text-lg font-bold hover:underline"
                                     >
                                     View on Github
                                     </a>
