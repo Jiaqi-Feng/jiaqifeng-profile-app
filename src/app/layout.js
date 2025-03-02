@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           {/* Sidebar */}
         <Sidebar />
         {/* Main Content */}
-        <main className="relative w-3/4 h-screen p-8 overflow-y-auto">
+        <main className="flex-1 h-screen p-1 sm:p-2 md:p-4 lg:p-8 overflow-y-auto translation-all duration-300 md:ml-16">
         
         {/* Content */}
         <div className="relative z-10 text-black">

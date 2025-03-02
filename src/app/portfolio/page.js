@@ -2,10 +2,10 @@ import portfolioData from "@/data/portfolioData";
 
 export default function Portfolio(){
     return(
-        <div className="p-8 min-h-screen">
+        <div className="p-4 sm:p-6 lg:p-8 min-h-screen overflow-scroll">
             {/* Title */}
-            <div className="text-black bg-title-color p-8 rounded-lg shadow-md mt-5 bg-opacity-60">
-                <h1 className="text-6xl font-bold text-indigo-950">
+            <div className="text-black bg-title-color rounded-lg shadow-md mt-2 sm:mt-5 p-4 sm:p-6 lg:p-8 bg-opacity-60">
+                <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-indigo-950">
                 MY PORTFOLIO
                 </h1>
                 <p className="text-xl font-semibold text-blue-950 mt-4">Explore a selection of my projects</p>

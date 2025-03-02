@@ -30,25 +30,25 @@ export default function Contact() {
         }; 
 
     return (
-        <div className="p-8 min-h-screen">
+        <div className="min-h-screen p-4 sm:p-6 lg:p-8 overflow-scroll">
 
             {/* Title */}
-            <div className="text-black bg-title-color p-8 rounded-lg shadow-md mt-5 bg-opacity-60">
-                <h1 className="text-6xl font-bold text-indigo-950">
+            <div className="text-black bg-title-color rounded-lg shadow-md mt-2 sm:mt-5 p-4 sm:p-6 lg:p-8 bg-opacity-60">
+                <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-indigo-950 overflow-hidden">
                     {contactData.title}
                 </h1>
-                <p className="text-xl font-semibold text-blue-950 mt-4">
+                <p className="text-base md:text-lg lg:text-xl font-semibold text-blue-950 mt-2 lg:mt-4">
                     {contactData.description}
                 </p>
             </div>
 
             {/* Form */}
-            <div className="space-y-6 mt-7">
-                <form onSubmit={handleFormSubmit} className="w-full flex flex-col items-start p-6 rounded-lg shadow-md bg-background bg-opacity-70">
-                    <div className="flex flex-col md:flex-row items-start md:items-center w-full mb-8">
+            <div className="space-y-6 mt-4 md:mt-5 lg:mt-7">
+                <form onSubmit={handleFormSubmit} className="w-full flex flex-col items-start p-4 md:p-6 lg:p-6 rounded-lg shadow-md bg-background bg-opacity-70">
+                    <div className="flex flex-col md:flex-row items-start md:items-center w-full mb-4 lg:mb-8">
                         <label
                             htmlFor="name"
-                            className="block md:w-1/3 text-2xl font-bold text-indigo-900 mb-2 md:mb-0">
+                            className="block md:w-1/3 text-xl lg:text-2xl font-bold text-indigo-900 mb-2 md:mb-0">
                             Your Name
                         </label>
                         <div>
@@ -74,7 +74,7 @@ export default function Contact() {
                     <div className="flex flex-col md:flex-row items-start md:items-center w-full mb-8">
                         <label
                             htmlFor="email"
-                            className="block md:w-1/3 text-2xl font-bold text-indigo-900 mb-2 md:mb-0">
+                            className="block md:w-1/3 text-xl lg:text-2xl font-bold text-indigo-900 mb-2 md:mb-0">
                             Email Address
                         </label>
                         <div>
@@ -100,7 +100,7 @@ export default function Contact() {
                     <div className="flex flex-col md:flex-row items-start md:items-center w-full mb-8">
                         <label
                             htmlFor="message"
-                            className="block md:w-1/3 text-2xl font-bold text-indigo-900 mb-2 md:mb-0">
+                            className="block md:w-1/3 text-xl lg:text-2xl font-bold text-indigo-900 mb-2 md:mb-0">
                             Message
                         </label>
                         <textarea
