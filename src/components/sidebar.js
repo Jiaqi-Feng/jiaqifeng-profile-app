@@ -1,19 +1,17 @@
 "use client";
 
 import { FaFacebook, FaGithub, FaLinkedin, FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-export default function Sidebar() {
+export default function Sidebar({isOpen, setIsOpen}) {
     // Detect if the page is active
     const pathname = usePathname();
-    //Sidebar open and close
-    const [isOpen, setIsOpen] = useState(true);
+
 
     return (
         <div className={`h-screen bg-sidebar-bg text-white flex flex-col items-center py-6 transition-all duration-300
-        ${isOpen ? "w-2/3 sm:w-2/1 md:w-1/4" : "w-16"}`}>
+        ${isOpen ? "w-3/4 sm:w-2/1 md:w-1/4" : "w-16"}`}>
 
             {/* Toggle button */}
             <button onClick={() => setIsOpen(!isOpen)}
