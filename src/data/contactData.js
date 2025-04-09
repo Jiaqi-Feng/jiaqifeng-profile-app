@@ -1,6 +1,6 @@
 const contactData = {
     title: "CONTACT ME",
-    description: "Contact Me form to be added. Need to have name, email, message."
+    description: "Have a question, opportunity, or just want to say hi? Feel free to reach out — I’d love to hear from you!"
 };
 
 export default contactData;
